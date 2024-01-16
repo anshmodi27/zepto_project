@@ -1,3 +1,4 @@
+import Footer from "./components/footer";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-caveat bg-[#ffff] text-[#607274]">{children}</body>
+      <body className="font-caveat bg-[#ffff] text-[#607274]">
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

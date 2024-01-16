@@ -38,7 +38,7 @@ const Page = () => {
   }, [searchQuery, selectedUsers]);
 
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center gap-5">
+    <div className="w-screen h-[91vh] flex flex-col justify-start items-center gap-5 mt-4">
       <div className="neu_shadow p-2 rounded-full">
         <Image src="/image.gif" alt="logo" width={100} height={100} />
       </div>
