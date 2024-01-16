@@ -1,5 +1,6 @@
 import Footer from "./components/footer";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Create Next App",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="font-caveat bg-[#ffff] text-[#607274]">
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
