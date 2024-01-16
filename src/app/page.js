@@ -94,7 +94,7 @@ const Page = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             onFocus={toggleDropdown}
-            onBlur={toggleDropdown}
+            // onBlur={toggleDropdown}
           />
           {/* Dropdown */}
           {isOpen && searchResults.length > 0 && (
